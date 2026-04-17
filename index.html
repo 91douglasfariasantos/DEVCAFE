@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logo-cafe.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>CAFETERIA DO DEV - BY Douglas</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-header">
+            <div class="div-logo">
+                <a href="#">
+                    <img src="./img/logo-cafe.png" alt="logo-cafe" class="div-logo-img">
+                    Cafeteria do DEV
+                </a>
+            </div>
+
+            <div class="div-list">
+                <ul class="menu-list">
+                    <li><a href="#" class="menu-link">Home</a></li>
+                    <li><a href="#" class="menu-link">Serviços</a></li>
+                    <li><a href="#" class="menu-link">Sobre</a></li>
+                </ul>
+                <button class="button-list">
+                    Pedido
+                    <img src="./img/icon-coffe-button.png" alt="icone-café-button" class="img-button-links">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-home" data-aos="fade-up" data-aos-delay="100">
+            <div class="grid">
+                <div class="div-text-home">
+                    <h1 class="h1-text-home">
+                        Nós Servimos o <span class="span-h1-home">café</span> mais rico da cidade.
+                    </h1>
+                    <div>
+                        <button class="button-home">Café e Código.</button>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/cafe-2.png" alt="imagem Café" class="img-home">
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="section-services">
+        <div class="container-services">
+            <h1 class="title-section-service">O Café Feito para você.</h1>
+        </div>
+
+        <!-- UM ÚNICO CONTAINER .div-card PARA AGRUPAR TODOS OS CARDS -->
+        <div class="div-card" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- CARD 1 -->
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="div-card-image">
+                    <img src="./img/american.png" alt="café americano" class="image-card">
+                </div>
+                <div class="div-text-services-card">
+                    <h1 class="h1-card-service">Americano</h1>
+                    <p class="p-card-service">Diferente do café de filtro, o Americano mantém os óleos essenciais e a
+                        complexidade do espresso,
+                        mas com um corpo mais leve e um volume maior, permitindo que você aprecie a bebida por mais
+                        tempo. </p>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="div-card-image">
+                    <img src="./img/cafe-expresso.png" alt="Expresso" class="image-card">
+                </div>
+                <div class="div-text-services-card">
+                    <h1 class="h1-card-service">Expresso</h1>
+                    <p class="p-card-service">Ele é a alma de quase todas as bebidas de cafeteria. Se o Americano é uma
+                        conversa longa e relaxada, o Espresso é aquele "papo direto ao ponto" e intenso..
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="div-card-image">
+                    <img src="./img/capuccino.png" alt="capuccino" class="image-card">
+                </div>
+                <div class="div-text-services-card">
+                    <h1 class="h1-card-service">Capuccino</h1>
+                    <p class="p-card-service">O Cappuccino é uma bebida clássica italiana que combina proporções iguais
+                        de espresso, leite vaporizado e uma densa camada de espuma. Sua textura aveludada equilibra a
+                        força do café com a doçura natural do leite, resultando em uma experiência cremosa e
+                        reconfortante. </p>
+                </div>
+            </div>
+
+        </div> <!-- FIM DO CONTAINER ÚNICO -->
+
+    </section>
+
+    <footer>
+        <div class="div-logo div-log-footer">
+            <a href="#">
+               <img class="div-logo-img" src="./img/logo-cafe.png" alt="logo café"> 
+               Cafeteria do Dev
+            </a>
+            <p class="p-footer"> Desenvolvido por Douglas/devclub</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init({
+    durarion:1200
+  });
+</script>
+</body>
+
+</html>
