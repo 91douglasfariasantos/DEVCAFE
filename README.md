@@ -1,8 +1,9 @@
+<img src:"https://github.com/91douglasfariasantos/DEVCAFE/blob/main/img/read.png?raw=true">
+
 # Dev Cafeteria ☕
 
 Este projeto é uma landing page moderna para uma cafeteria, desenvolvida como parte do currículo de programação do **DEVClub**. O objetivo principal foi consolidar conhecimentos em marcação semântica e estilização profissional.
 
-<img src:"https://github.com/91douglasfariasantos/DEVCAFE/blob/main/img/read.png?raw=true">
 
 ## 🚀 Sobre o Projeto
 
