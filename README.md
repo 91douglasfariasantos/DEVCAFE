@@ -2,6 +2,8 @@
 
 Este projeto é uma landing page moderna para uma cafeteria, desenvolvida como parte do currículo de programação do **DEVClub**. O objetivo principal foi consolidar conhecimentos em marcação semântica e estilização profissional.
 
+<img src:"https://github.com/91douglasfariasantos/DEVCAFE/blob/main/img/read.png?raw=true">
+
 ## 🚀 Sobre o Projeto
 
 O **Dev Cafeteria** é um site institucional simples e elegante que apresenta os produtos, o ambiente e o contato da cafeteria. O foco do desenvolvimento foi criar uma interface limpa, com boa hierarquia visual e facilidade de navegação.
@@ -36,7 +38,7 @@ O processo de desenvolvimento foi dividido em etapas lógicas:
 
 ##
 
-<img src:"https://github.com/91douglasfariasantos/DEVCAFE/blob/main/img/read.png?raw=true" />
+
 
 ---
 
