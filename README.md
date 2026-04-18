@@ -34,5 +34,11 @@ O processo de desenvolvimento foi dividido em etapas lógicas:
 2.  Navegue até a pasta do projeto.
 3.  Abra o arquivo `index.html` em seu navegador de preferência.
 
+##
+
+<img src:"https://github.com/91douglasfariasantos/DEVCAFE/blob/main/img/read.png?raw=true" />
+
 ---
+
+
 Desenvolvido por [Douglas Faria dos Santos](https://github.com/91douglasfariasantos).
